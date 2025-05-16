@@ -90,12 +90,15 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
+  "src/styles.css"
+],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "10254b4f-dd2a-47ff-9fc3-423ce97fadb0"
   }
 }
