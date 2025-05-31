@@ -14,3 +14,16 @@
     font-size: 1.25rem;
     color: #cccccc;
 }
+.learn-btn{
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.learn-btn:hover{
+    background-color: var(--accent);
+}
