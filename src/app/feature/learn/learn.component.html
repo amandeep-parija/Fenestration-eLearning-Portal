@@ -1,0 +1,13 @@
+<div class="learn-page">
+  <h2 class="Page-title">Start Learning</h2>
+  <div class="category-grid">
+    <div class="category-card" *ngFor="let category of categories">
+      <h3>{{ category.title }}</h3>
+      <p>{{ category.description }}</p>
+      <button class="learn-btn" [routerLink]="[category.link]">Start Learning</button>
+    </div>
+  </div>
+
+
+  <router-outlet></router-outlet>
+</div>
