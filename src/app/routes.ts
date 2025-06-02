@@ -7,6 +7,7 @@ import { UpvcComponent } from './features/learn/upvc/upvc.component';
 import { AluminiumComponent } from './features/learn/aluminium/aluminium.component';
 import { GlassComponent } from './features/learn/glass/glass.component';
 import { HardwareComponent } from './features/learn/hardware/hardware.component';
+import { UpvccasementdetailComponent } from './pages/learn/upvccasementdetail/upvccasementdetail.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -18,5 +19,6 @@ export const routes: Routes = [
   { path: 'learn/hardware', component: HardwareComponent },
   { path: 'quiz', component: QuizComponent },
   { path: 'progress', component: ProgressComponent },
+  {path: 'learn/upvc/casement', component:UpvccasementdetailComponent},
   { path: '**', redirectTo: 'home' }
 ];

@@ -1,13 +1,10 @@
-<div class="upvc-page">
-  <h2 class="section-title">uPVC Profile Types</h2>
+<div class="casement-page">
+  <h2 class="section-title">Explore Types of uPVC</h2>
   <div class="profile-grid">
     <div class="profile-card" *ngFor="let profile of profileTypes">
       <img [src]="profile.image" [alt]="profile.title" class="profile-img" />
       <h3>{{ profile.title }}</h3>
       <p>{{ profile.description }}</p>
-      <button class="casement-btn" routerLink="/learn/upvc/casement">Explore Types</button>
-    
-
     </div>
   </div>
 </div>

@@ -1,16 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { title } from 'node:process';
 
 @Component({
-  selector: 'app-upvc',
-  standalone:true,
-  imports: [CommonModule,RouterModule],
-  templateUrl: './upvc.component.html',
-  styleUrl: './upvc.component.css'
+  selector: 'app-upvccasementdetail',
+  imports: [CommonModule],
+  templateUrl: './upvccasementdetail.component.html',
+  styleUrl: './upvccasementdetail.component.css'
 })
-export class UpvcComponent {
+export class UpvccasementdetailComponent {
+
   profileTypes = [
     {
       title: 'uPVC Casement Window',
